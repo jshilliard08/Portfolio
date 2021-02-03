@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 10px;
+    
+}
+
+body {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7EFpD1hdYosrGA8UVKce_vLUP6dQl2TaIfw&usqp=CAU");
+}
+
+/*Header*/
+header {
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    text-align: center;
+    justify-content:space-between;
+    height: 150px;
+    width: 98%;
+}
+/*Navigation Bar*/
+nav ul{
+    background-image: url("https://venngage-wordpress.s3.amazonaws.com/uploads/2018/09/Minimalist-Crumpled-Paper-Simple-Background-Image.jpg");
+    padding: 2px;
+    text-align: center;
+    border-style: solid;
+}
+
+nav a {
+    display: block;
+    color:black;
+    padding: 2px;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+
+nav a:hover {
+    background-color: white;
+    color:grey;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+main {
+    widows: 50%;
+    display: inline-block;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: left;
+    flex-wrap: wrap;
+    color: black;
+}
+
+/*About Me*/
+.imgDiv {
+    align-content: flex-start;
+}
+
+.profile {
+    width: 15%;
+    height:auto;
+    padding: 2px;
+    background: black;
+    align-content:center;
+}
+
+/*Portfolio*/
+.work {
+    align-content: center;
+}
+
+/*Contact Information*/
+.contact-information ul {
+    list-style-type: none;
+    list-style: none;
+    text-decoration: none;
+    justify-content: left;
+
+}
+
+.contact-information ul li a {
+    padding: 0px;
+    margin:0px;
+}
+
+/*Resume*/
+.resume a {
+    margin-left: 20px;
+    padding: 20px;
+}
+
+
+
