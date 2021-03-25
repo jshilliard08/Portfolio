@@ -14,16 +14,16 @@
     <nav>
         <ul>
             <li>
-                <a href="#about-me">About Me</a>
+                <a href="#about-me" onclick="showAboutMe()">About Me</a>
             </li>
             <li>
-                <a href="#portfolio">Portfolio</a>
+                <a href="#portfolio" onclick="showPortfolio()">Portfolio</a>
             </li>
             <li>
-                <a href="#contact-information">Contact Information</a>
+                <a href="#contact-information" onclick="showContact()">Contact Information</a>
             </li>
             <li>
-                <a href="#resume">Resume</a>
+                <a href="#resume" onclick="showResume()">Resume</a>
             </li>
         </ul>
     </nav>
@@ -31,18 +31,18 @@
     <main>
 
         <section id="about-me" class="about-me">
-            <h2>About Me</h2>
+            <h2 class="font-weight-bold invisible" id="description">About Me</h2>
             <div class="imgDiv"><img src="assets/images/profile pic small.jpg" class="profile"></div>
 
 
-            <p>
+            <p id="description1" class="invisible">
                 Hello! Welcome! My name is Josepine Hilliard. I am a hard-working, self-motivated and ambitious individual with proficiency in HTML, JavaScript, and CSS, 
                 as well as ability to communicate effectively in a team setting, and possessing a strong willingness to learn about 
                 entrepreneurship and business seeks to apply for an entry level Full Stack Developer position.
             </p>
         </section>
 
-        <section id="portfolio" class="portfolio">
+        <section id="portfolio" class="portfolio invisible">
             <h2>Portfolio</h2>
             <p>
                 Here you will find projects and applications I have developed and collaborated on.
@@ -52,10 +52,12 @@
                 <a href="https://jshilliard08.github.io/password-generator/" class="btn btn-secondary btn-lg" role="button" aria="true" target="_blank">Password Generator</a>
                 <a href="https://jshilliard08.github.io/work-day-scheduler/" class="btn btn-secondary btn-lg" role="button" aria="true" target="_blank">Work Day Scheduler</a>
                 <a href="https://jshilliard08.github.io/code-quiz/" class="btn btn-secondary btn-lg" role="button" aria="true" target="_blank">Coding Quiz</a>
+                <a href="https://jshilliard08.github.io/readME-generator2/" class="btn btn-secondary btn-lg" role="button" aria="true" target="_blank">ReadMe Generator</a>
+                <a href="https://jshilliard08.github.io/note-taker/" class="btn btn-secondary btn-lg" role="button" aria="true" target="_blank">Note Taker</a>
             </div>
         </section>
 
-        <section id="contact-information" class="contact-information">
+        <section id="contact-information" class="contact-information invisible">
 
             <h2>Contact Infromation</h2>
             <ul>
@@ -71,13 +73,13 @@
             </ul>
         </section>
 
-        <section id="resume" class="resume">
+        <section id="resume" class="resume invisible">
             <h2>Resume</h2>
             <a href="C:\Users\jodie\Downloads\2020 Resume.pdf" class="btn btn-secondary btn-lg" role="button" aria-disabled="true" target="_blank"> Resume</a>
         </section>
 
     </main>
-
+    <script src="index.js"></script>
 </body>
 
 </html>
